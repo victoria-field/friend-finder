@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Tables Page</title>
+  <title>FriendFinder</title>
 
-  <!-- Latest compiled and minified CSS -->
+
+  <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+  <!-- Font Awesome Glyphicons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
   <style>
   body {background-color: #A393EB;}
   .jumbotron {background-color: #A393EB;}
   .jumbotron {color: #27296D;}
   .btn {background-color: #27296D;}
-  .foot {text-decoration-color: #FFFFFF;}
+  p {color: #FFFFFF;}
     </style>
+
 </head>
+
 <body>
 
   <div class="container">
 
     <div class="jumbotron">
-      <h1 class="text-center"><span class="glyphicon glyphicon-globe"></span> Friend Finder</h1>
+      <h1><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
       <hr>
-      <h2 class="text-center">Answer a few basic questions.<br />
-Then find the friend with the greatest compatibility!</h2>
+      <h2>Answer a few basic questions. </h2>
+      <h2>Then find the friend with the greatest compatibility!</h2>
       <br>
 
-      <div class="text-center">
-        <a href="survey.html"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</button></a>
-        </div>
+      <div>
+        <a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>
+      </div>
 
     </div>
 
     <footer class="footer">
-      <div class="container" id="footer">
-        <p class="foot"><a href="/api/tables">API Table Link</a> | <a href="/api/waitlist">API Wait List</a> | <a href="#">GitHub Repo</a></p>
+      <div class="container">
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://victoria-field.github.io/friend-finder/">GitHub Repo</a></p>
       </div>
     </footer>
 
   </div>
 
-
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
+
 </html>

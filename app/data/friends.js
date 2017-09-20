@@ -1,3 +1,5 @@
+// array of friends to pair with
+
 
 var friends = [ {
 	"name" : "Elmo",
